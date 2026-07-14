@@ -1,8 +1,10 @@
-# Agentic Design
+# Agentic Instructions
 
 **Stop writing flowcharts for things that can think.**
 
-An evidence-based Claude skill for designing, debugging, and evaluating AI agent prompts: voice agents, chat/SMS agents, coding agents (CLAUDE.md), and workflow automations.
+An evidence-based Claude skill for writing, debugging, and evaluating AI agent prompts: voice agents, chat/SMS agents, coding agents (CLAUDE.md), and workflow automations.
+
+Scope: this skill covers the instructions you give an agent. For the system around them (verification, eval harnesses, risk tiers and approval gates, model routing, durable execution, deployment), see the companion skill `agentic-systems`.
 
 ## The idea
 
@@ -13,7 +15,7 @@ This skill teaches the alternative: write at the right altitude. Give the agent 
 ## What's inside
 
 ```
-agentic-design/
+agentic-instructions/
 ├── SKILL.md                     Core method: altitude, drafting workflow,
 │                                debugging workflow, context engineering,
 │                                tool design, architecture, meta-prompting
@@ -38,12 +40,12 @@ agentic-design/
 
 ## Install
 
-**One-click:** open `agentic-design.skill` in a Claude chat and click Save skill.
+**One-click:** open `agentic-instructions.skill` in a Claude chat and click Save skill.
 
 **Claude Code / Cowork:** clone this folder into your skills directory:
 
 ```bash
-git clone <this-repo> ~/.claude/skills/agentic-design
+git clone <this-repo> ~/.claude/skills/agentic-instructions
 ```
 
 **Claude.ai:** upload the `.skill` file, or add the folder under Settings > Capabilities > Skills where available.
